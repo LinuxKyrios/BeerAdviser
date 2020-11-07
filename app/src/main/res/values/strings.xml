@@ -5,7 +5,7 @@
     <!--Added two strings find beer and brands-->
     <string-array name="beer_colors">
         <item>jasne</item>
-        <item>burszytnowe</item>
+        <item>bursztynowe</item>
         <item>brązowe</item>
         <item>ciemne</item>
     </string-array>
