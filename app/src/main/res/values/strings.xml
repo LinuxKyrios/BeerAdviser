@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Doradca Piwny</string>
+    <string name="find_beer">Wyszukaj piwo!</string>
+    <string name="brands">Nie wybrano żadnego piwa</string>
+    <!--Added two strings find beer and brands-->
+    <string-array name="beer_colors">
+        <item>jasne</item>
+        <item>burszytnowe</item>
+        <item>brązowe</item>
+        <item>ciemne</item>
+    </string-array>
+    <!--String array with beer categories has been added-->
 </resources>
