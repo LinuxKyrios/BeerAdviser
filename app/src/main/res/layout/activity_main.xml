@@ -26,7 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:text="@string/find_beer" />
+        android:text="@string/find_beer"
+        android:onClick="onClickFindBeer" />
         <!-- Button was changed from id Button to find_beer, match_parent in layout width
         and set to gravity center with margin 16dp. Also added string container-->
 
