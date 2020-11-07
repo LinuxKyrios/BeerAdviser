@@ -6,7 +6,7 @@ import java.util.List;
 public class BeerExpert {
     List<String> getBrands(String color) {
         List<String> brands = new ArrayList<String>();
-        //Using switch instead of ilse if ladder
+        //Using switch instead of eCorrected typo commentlse if ladder
         switch (color) {
             case "bursztynowe":
                 brands.add("Jack Amber");
