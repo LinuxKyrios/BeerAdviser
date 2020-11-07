@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:entries="@array/beer_colors" />
-        <!--Spinner added with id color, with margin to 40dp, center gravity and 16 dp margin
+        <!--Spinner element added with id color, with margin to 40dp, center gravity and 16 dp margin
         array added-->
 
 
@@ -28,7 +28,7 @@
         android:layout_margin="16dp"
         android:text="@string/find_beer"
         android:onClick="onClickFindBeer" />
-        <!-- Button was changed from id Button to find_beer, match_parent in layout width
+        <!-- Button element was changed from id Button to find_beer, match_parent in layout width
         and set to gravity center with margin 16dp. Also added string container-->
 
     <TextView

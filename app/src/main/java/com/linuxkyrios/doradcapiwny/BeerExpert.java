@@ -8,14 +8,14 @@ public class BeerExpert {
         List<String> brands = new ArrayList<String>();
         //Using switch instead of eCorrected typo commentlse if ladder
         switch (color) {
-            case "bursztynowe":
-                brands.add("Jack Amber");
-                brands.add("Red Moose");
-                break;
             case "jasne":
                 brands.add("Pilzner");
                 brands.add("Pale Lager");
                 brands.add("Mild Lager");
+                break;
+            case "bursztynowe":
+                brands.add("Jack Amber");
+                brands.add("Red Moose");
                 break;
             case "brązowe":
                 brands.add("Koźlak");
@@ -25,6 +25,9 @@ public class BeerExpert {
                 brands.add("Porter Bałtycki");
                 brands.add("Stout");
                 brands.add("Russian Stout");
+                break;
+            default:
+                brands.add("Wybierz piwo z listy");
                 break;
         }
         return brands;

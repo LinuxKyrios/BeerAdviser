@@ -4,6 +4,7 @@
     <string name="brands">Nie wybrano żadnego piwa</string>
     <!--Added two strings find beer and brands-->
     <string-array name="beer_colors">
+        <item>Wybierz piwo</item>
         <item>jasne</item>
         <item>bursztynowe</item>
         <item>brązowe</item>
